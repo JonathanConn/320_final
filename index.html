@@ -1,0 +1,51 @@
+<html>
+
+    <body>
+        <form action="http://localhost:5000/index" method="post">
+            
+            <p>Ticker:</p>
+            <P><input type="text" name="tick"/></P>
+
+            <label for="interval_form">Intervals:</label>
+            <select name="interval_form" id="interval_form">                
+                <option value="15second">15 Seconds</option>
+                <option value="5minute">5 Minute</option>
+                <option value="10minute">10 Minute</option>
+                <option value="hour" selected>Hourly</option>
+                <option value="day">Daily</option>
+                <option value="week">Weekly</option>
+            </select>
+
+            <label for="span_form">Span:</label>
+            <select name="span_form" id="span_form">                
+                <option value="hour">Hourly</option>
+                <option value="day">Daily</option>
+                <option value="week" selected>Weekly</option>
+                <option value="month">Montly</option>
+                <option value="3month">3-Monthly</option>
+                <option value="year">Yearly</opstion>
+                <option value="5year">5-Yearly</option>
+            </select>
+
+            <label for="bound_form">Bounds:</label>
+            <select name="bound_form" id="bound_form">                
+                <option value="regular">6-Hour</option>
+                <option value="trading">9-hour</option>
+                <option value="extended">16-hour</option>
+                <option value="24_7" selected>24-hour</option>
+            </select>
+
+            <label for="norm">Normalization Function:</label>
+            <select name="norm" id="norm">                
+                <option value="mean">Mean</option>
+                <option value="min-max">Min-Max</option>
+                <option value="none" selected>None</option>
+            </select>
+
+            <p><input type="submit" value="Go!"/></p>
+
+        </form>
+    </body>
+
+
+</html>

@@ -5,7 +5,7 @@
 - [ ] insights learned
 
 ## TASKS LIST
-- [ ] Get Covid Data
+- [x] Get Covid Data
 - [x] Get Economy Data
 - [ ] Develop Hypothesis
 
